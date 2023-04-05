@@ -1,0 +1,77 @@
+.dowloadHeader {
+  padding-top: 25px;
+  &__header-content {
+    display: flex;
+    justify-content: space-between;
+    
+    select {
+      border: none;
+      &:hover {
+        background:rgba(0, 0, 0, .1);
+        cursor: pointer;
+        border-radius: 1px;
+      }
+    }
+  }
+}
+.download {
+  padding-top: 80px;
+  &__subtitle {
+    font-size: 34px;
+    color: #011638;
+    margin-bottom: 25px;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__descr {
+    color: #353535;
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  &__profile {
+    font-size: 18px;
+    color: #353535;
+    margin-bottom: 15px;
+  }
+  &__select {
+    max-width: 380px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-bottom: 60px;
+    cursor: pointer;
+    &:hover {
+      border-color: #34219e;
+    }
+  }
+  &__button {
+    width: 216px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: #ff0076;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+    &:hover {
+      background-color: #ec006d;
+      border: 1px solid #ec006d;
+    }
+  }
+  &__paragraph {
+    font-size: 14px;
+    line-height: 16px;
+    a {
+      color: #231768;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  &-footer {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
+.btn {
+  background-color: #ff0076;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-right: 20px;
+  &:hover {
+    background-color: #d00060;
+  }
+  &-big {
+    width: 250px;
+    padding: 8px 16px;
+    margin-top: 50px;
+  }
+}
+
+.pinkDivider {
+  display: block;
+  width: 50px;
+  margin: 0 auto;
+  height: 3px;
+  background-color: #d00060;
+  &-left {
+    margin: 0;
+  }
+}
+
+.active {
+  position: fixed;
+  background-color: #fff;
+  color: #000;
+}
+
+.activeText {
+  color: #000;
+}

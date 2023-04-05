@@ -1,0 +1,127 @@
+ .sm {
+  width: 370px;
+  right: -210px;
+  height: 405px;  
+  // overflow: hidden;
+  display: none;
+ }
+
+.header__sub-show {
+  // overflow: hidden;
+  &-con {
+    overflow: hidden;
+    display: block;
+  } 
+  &-texts {
+    &-subheader {
+      color: #9b8af0;
+      font-size: 20px;
+      margin-top: 24px;
+      margin-left: 16px;
+    }
+    &-subtitle {
+      color: #353535;
+      font-size: 16px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      margin-top: 15px;
+      margin-left: 16px;
+    }
+    &-subbtext {
+      font-size: 16px;
+      line-height: 22px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      margin-left: 16px;
+      a {
+        text-decoration: none;
+        color: #353535;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    &-footerText {
+      font-size: 16px;
+      color: #353535;
+      line-height: 22px;
+      margin-top: 10px;
+      margin-left: 16px;
+      a {
+        text-decoration: none;
+        color: #353535;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  &-meet {
+    color: #9b8af0;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 16px;
+  }
+  &-connection {
+    color: #353535;
+    font-size: 16px;
+    margin-left: 16px;
+    margin-bottom: 15px;
+  }
+  // &-mm {
+  //   display: flex;
+  // }
+  &-wrap {
+    &:hover {
+      background-color: #e5e1f9;
+      border-radius: 4px;
+      .header__sub-show-content {
+        transform: translateY(15px);
+        transition: all 0.3s;
+        color: #fff;
+      }
+      .header__sub-show-events {
+        font-size: 22px;
+        color: #011638;
+      }
+    } 
+  }
+
+  &-content {
+    display: block;
+    min-height: 159px;
+    margin-left: 16px;
+    position: relative;
+    transform: translateY(103px);
+    bottom: 10px;
+    transition: all 0.5s;
+    img {
+      width: 35px;
+      height: 35px;
+    }
+  }
+  &-events {
+    font-size: 16px;
+    color: #353535;
+    margin-bottom: 5px;
+  }
+  &-comunity {
+    font-size: 16px;
+    color: #353535;
+  }
+}
+
+.divider {
+  width: 370px;
+}
+
+.block2 {
+  display: block;
+}
+
+.none2 {
+  display: none;
+}

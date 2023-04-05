@@ -1,0 +1,20 @@
+.partners {
+  padding-top: 170px;
+  &__title {
+    text-align: center;
+    font-size: 34px;
+    color: #011638;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      width: 120px;
+      height: 120px;
+      object-fit: contain;
+    }
+  }
+}

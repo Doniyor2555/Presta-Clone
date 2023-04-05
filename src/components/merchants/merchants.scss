@@ -1,0 +1,27 @@
+.merchants {
+  padding-top: 50px;
+  background: linear-gradient(90deg,#231768 0 0,#34219e 100%);
+  min-height: 750px;
+  height: 750px;
+  &__title {
+    font-size: 34px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  &__wrapper {
+    margin-top: 40px;
+  }
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(270px, auto));
+    grid-template-rows: repeat(3, 1fr);
+    grid-auto-columns: 1fr;
+    gap: 20px;
+  }
+  &__img {
+    width: 402px;
+    height: 253px;
+    object-fit: cover; 
+  }
+}
