@@ -1,6 +1,8 @@
 import React from 'react'
 import '../../styles/variables.scss';
-import './promo.scss'
+import './main.scss'
+
+import { Link } from 'react-router-dom';
 
 function Promo() {
   return (
@@ -12,7 +14,9 @@ function Promo() {
               Your brand. Your rules.
             </div>
             <p className='promo__descr'>PrestaShop offers you a highly flexible and     scalable ecommerce <br /> platform to launch an online business 100% owned and designed by <br /> you.</p>
-            <button className='btn btn-big'>Get started</button>
+            <Link to='/download'>
+              <button className='btn btn-big'>Get started</button>
+            </Link>
           </div>
           <div className='promo__img'>
             <img src="https://www.prestashop.com/sites/default/files/visuel_a-b-test-papiertigre_home-eng-ab2.png" alt="main-img" />

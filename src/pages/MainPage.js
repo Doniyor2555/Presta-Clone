@@ -1,5 +1,5 @@
 import Header from '../components/header/Header';
-import Promo from '../components/promo/Promo';
+import Promo from '../components/main/Main';
 import Sell from '../components/sell/Sell';
 import TryPresta from '../components/tryPrestaShop/TryPresta';
 import Merchants from '../components/merchants/Merchants';
