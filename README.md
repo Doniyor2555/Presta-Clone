@@ -1,5 +1,3 @@
-cardBlock color: #d2d2d2;
-
-sell online background-color: #011638;
-
-border-color: #34219e;
+Presta-Shop-Clone with React.
+Using React Router-Dom.
+And React hooks.
